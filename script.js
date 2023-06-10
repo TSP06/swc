@@ -177,6 +177,9 @@ toggle.addEventListener('click', function(){
         button.style.background = 'black';
         button.style.color = 'white';
         button.style.transition = '1s';
+         button2.style.background = 'black';
+        button2.style.color = 'white';
+        button2.style.transition = '1s';
         mv.style.color = 'black';
         mv.style.transition='1s';
       
