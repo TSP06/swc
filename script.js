@@ -138,6 +138,28 @@ const para = document.getElementById('para')
 toggle.addEventListener('click', function(){
     this.classList.toggle('bi-moon');
     if(this.classList.toggle('bi-brightness-high-fill')){
+<<<<<<< HEAD
+=======
+        
+       
+        body.style.transition = '1s';
+        main.style.background = ' #FAFAFA';
+        main.style.color = 'white';
+        main.style.transition = '1s';
+        header.style.background = 'white';
+     
+        header.style.transition = '1s';
+        sidebar.style.background = ' #FAFAFA';
+     
+        sidebar.style.transition = '1s';
+        button.style.background = 'black';
+        button.style.color = 'white';
+        button.style.transition = '1s';
+        mv.style.color = 'black';
+        para.style.color='';
+        
+    }else{
+>>>>>>> c016a17ec4bc0ebf278a28deec62ad23504f5a75
         body.style.background = 'grey';
         body.style.color = 'white';
         body.style.transition = '1s';
